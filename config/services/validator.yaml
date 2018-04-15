@@ -1,0 +1,4 @@
+services:
+    app.validator.validate_date:
+        class: App\Validator\ValidateDateService
+        public: true
